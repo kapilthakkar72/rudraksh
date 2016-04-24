@@ -12,12 +12,12 @@ import java.io.OutputStreamWriter;
 public class NormBatch {
 	public static void main(String args[]) throws IOException{
 		ViterbiDecoder vd=new ViterbiDecoder();
-		//String infile="./data/test.txt";
-		String infile=args[0];
+		String infile="./data/test.txt";
+		//String infile=args[0];
 		BufferedReader br = new BufferedReader(new InputStreamReader(
 				new FileInputStream(infile), "utf-8"));
-		//String outfile="./result_full.txt";
-		String outfile=args[1];
+		String outfile="./result_full.txt";
+		//String outfile=args[1];
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(
 				new FileOutputStream(outfile), "utf-8"));
 		

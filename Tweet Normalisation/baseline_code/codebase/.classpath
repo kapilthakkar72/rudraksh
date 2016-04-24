@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="/home/xuke/JAVA_PROJECTS/norm_CMULex2/lib/metaphone-codec.jar"/>
-	<classpathentry kind="lib" path="/home/xuke/JAVA_PROJECTS/norm_CMULex2/lib/freetts.jar"/>
-	<classpathentry kind="lib" path="/home/xuke/JAVA_PROJECTS/norm_CMULex2/lib/CRFPP.jar"/>
+	<classpathentry kind="src" path="src">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="F:/IIT Delhi/Semester 4/Natural Language Processing/Project/rudraksh/Tweet Normalisation/baseline_code/codebase/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="lib" path="F:/IIT Delhi/Semester 4/Natural Language Processing/Project/rudraksh/Tweet Normalisation/baseline_code/codebase/lib/metaphone-codec.jar"/>
+	<classpathentry exported="true" kind="lib" path="F:/IIT Delhi/Semester 4/Natural Language Processing/Project/rudraksh/Tweet Normalisation/baseline_code/codebase/lib/freetts.jar"/>
+	<classpathentry exported="true" kind="lib" path="F:/IIT Delhi/Semester 4/Natural Language Processing/Project/rudraksh/Tweet Normalisation/baseline_code/codebase/lib/CRFPP.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="F:/IIT Delhi/Semester 4/Natural Language Processing/Project/rudraksh/Tweet Normalisation/baseline_code/CRF++traing"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

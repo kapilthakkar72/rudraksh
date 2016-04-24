@@ -16,7 +16,7 @@ public class ReadLmProb {
 	public HashMap<String, Double> uniSyDicProb=new HashMap<>();
 	public HashMap<String,ArrayList<String>> phraseMap=new HashMap<>();
 	public void loadWord() throws IOException{
-		String infile="/sdb/xuke/twitterLM/twitterlm.txt";
+		String infile="F:\\IIT Delhi\\Semester 4\\Natural Language Processing\\Project\\rudraksh\\Tweet Normalisation\\baseline_code\\twitterLM\\twitterlm.txt";
 		BufferedReader br = new BufferedReader(new InputStreamReader(
 				new FileInputStream(infile), "utf-8"));
 		
