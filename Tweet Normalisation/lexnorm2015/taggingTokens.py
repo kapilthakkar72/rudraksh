@@ -33,7 +33,7 @@ def getTags(tokens):
 	tags = []
 	for token in tokens:
 		# Check for Hashtag
-		if(token[0] == '@' || token[0] == '#'):
+		if(token[0] == '@' or token[0] == '#'):
 			tags.append("NO")
 		elif(token in punc):
 			tags.append("NO")
@@ -65,12 +65,10 @@ for i,line in enumerate(ip_file):
 	elif(i%3 == 2):
 		tags = getTags(tokens)
 		# Print
-		op_file.write(original+"\n")
+		op_file.write(original.strip()+"\n")
 		op_file.write(arrayToString(tags)+"\n")
-		op_file.write(correctedTweet+"\n")
+		op_file.write(correctedTweet.strip()+"\n")
 		op_file.write("\n")
-
-
 
 # Closing opened file
 ip_file.close()
